@@ -1,0 +1,19 @@
+---
+title: Analysis and Optimization Projects
+author: Jacob Fain
+date: 2024-11-30
+image: images/ # A url to image here.
+description: This is a description # Short description of the project to be shown on overview page.
+---
+
+## Problem Statement
+
+## Project Goals and Objectives
+
+## Process and Approach
+
+## Results
+
+## Impact and Reflection
+
+## Future Improvements

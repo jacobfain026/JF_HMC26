@@ -1,0 +1,32 @@
+---
+title: Engineering Club Projects
+---
+---
+
+# Mudd Automotive Club
+
+### Welding & Machining
+
+### Shock Tower Mounting Calculations
+
+### Electrical Research
+
+---
+
+# Mudd Advanced Rocketry Club
+
+### Gladius III Design & Validation
+
+### FAR24 Competition Launch
+
+### Remote-Control Rover Modifications
+
+### Gladius II Research & Fabrication
+
+---
+
+# Mudd Robosub Club
+
+### Torpedo Launcher Prototype
+
+### Marker Dropper Prototype

@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Jacob Fain HMC'26"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: industry_experience/
+        text: Industry Experience
+      - href: engineering_class_projects/
+        text: Engineering Class Projects
+      - href: engineering_club_projects/
+        text: Engineering Club Projects
+      - href: art_projects/
+        text: Art Projects
+      - href: fellowship_and_fun/
+        text: Fellowship and Fun
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

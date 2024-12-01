@@ -1,0 +1,30 @@
+---
+title: Engineering Class Projects
+---
+---
+
+# Analysis & Optimization
+
+### E183 Manufacturing Facility Case Study
+
+### E72 Zipline Optimization Problem
+
+### E80 Team Report & Data Regression
+
+### E80 Fluid Dynamics Lab Tech Memo
+
+---
+
+# Design & Manufacturing
+
+### E4 "Remediation Station" Team Project
+
+### E4 Machinist's Hammer GD&T/Fabrication Project
+
+---
+
+# Systems & Electronics
+
+### E84 Guitar Amplifier Circuit (independent modifications in progress)
+
+### E80 Circuit Design

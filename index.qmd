@@ -1,0 +1,20 @@
+---
+title: "Jacob Fain HMC'26"
+image: images/FainJacobProfessionalProfile.jpg # replace with the link to your headshot
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jbrake
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/channel/UCCZzVrBDjvFEtv_s_rfnbCw
+    - icon: github
+      text: Github
+      href: https://github.com/jacobfain026
+---
+
+Hey! I'm a third-year engineering major at Harvey Mudd College in Claremont, California.
+I love learning and making stuff, so over the years I've picked up various engineering skills, programming languages, and software tools. Among other things, I'm an avid video editor and music mixer.
+I'm concentrating my studies in mechanical engineering and economics as I dream of eventually establishing an engineering firm. I hope to gain experience, both technical and managerial, in the engineering industry and its intersections. Check out my resume, profiles, and much more below!
