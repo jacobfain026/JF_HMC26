@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jacobfain026.github.io/index.html</loc>
+    <lastmod>2024-12-01T05:51:30.802Z</lastmod>
+  </url>
+  <url>
     <loc>https://jacobfain026.github.io/art_projects/index.html</loc>
     <lastmod>2024-12-01T02:04:01.737Z</lastmod>
   </url>
@@ -14,18 +18,14 @@
   </url>
   <url>
     <loc>https://jacobfain026.github.io/engineering_club_projects/index.html</loc>
-    <lastmod>2024-12-01T02:58:16.090Z</lastmod>
+    <lastmod>2024-12-01T03:33:13.792Z</lastmod>
   </url>
   <url>
     <loc>https://jacobfain026.github.io/fellowship_and_fun/index.html</loc>
-    <lastmod>2024-12-01T02:15:45.896Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jacobfain026.github.io/index.html</loc>
-    <lastmod>2024-12-01T03:11:45.885Z</lastmod>
+    <lastmod>2024-12-01T03:33:49.774Z</lastmod>
   </url>
   <url>
     <loc>https://jacobfain026.github.io/industry_experience/index.html</loc>
-    <lastmod>2024-12-01T03:13:03.336Z</lastmod>
+    <lastmod>2024-12-01T03:58:31.137Z</lastmod>
   </url>
 </urlset>
