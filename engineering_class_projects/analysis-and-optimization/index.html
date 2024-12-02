@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Jacob Fain HMC'26</title>
+<title>Analysis &amp; Optimization – Jacob Fain HMC'26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,28 +127,74 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#e72-zipline-optimization-problem" id="toc-e72-zipline-optimization-problem" class="nav-link active" data-scroll-target="#e72-zipline-optimization-problem">E72 Zipline Optimization Problem</a></li>
+  <li><a href="#e80-technical-memorandum-team-report" id="toc-e80-technical-memorandum-team-report" class="nav-link" data-scroll-target="#e80-technical-memorandum-team-report">E80 Technical Memorandum &amp; Team Report</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analysis &amp; Optimization</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>In E72, sophomore engineers learn and expand upon a variety of important mathematical skills, from Fourier Transforms to differential equations to optimization algorithms, primarily through the medium of MATLAB. Many long nights of difficult problem sets culminated in the notorious final homework assignment, in which students optimize a zipline’s vertical drop and wire rope tension to meet certain constraints while ensuring a wild ride. Check out my approach in the PDF!</p>
-<p>
-<iframe width="100%" height="600" src="images/E72 Homework 13 - Google Docs.pdf" alt="[E72 Homework 13](https://drive.google.com/file/d/1SiubkVozQMXaHgqTFxwavjSIbMaKRO7Z/view)">
-/&gt;
-</p>
-<p>https://drive.google.com/file/d/1sQnH5vlpclNPjMIXjWGF5w882MS8xUdY/view tech memo ^</p>
-<p>https://drive.google.com/file/d/15csoVUgetDNcze0qIiI11_JCYX8QlxJQ/view team report ^</p>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="e72-zipline-optimization-problem" class="level1">
+<h1>E72 Zipline Optimization Problem</h1>
+<p>E72 is easily one of the three most difficult classes I’ve ever taken. With both speed and rigor, it moves students along through a variety of important mathematical and systems engineering skills, from Fourier Transforms to differential equations to optimization algorithms, while simultaneously teaching them (or rather, teaching them to teach themselves) MATLAB. Many long nights of difficult problem sets culminated in the notorious final homework assignment, in which students calculate zipline’s optimal vertical drop and wire rope tension to meet exit velocity constraints while maximizing the speeds that one of three weight classes of riders will experience.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/E72riderspeeds.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="Plots of rider speeds and peak speeds versus horizontal position on zipline."></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/E72solutionspace.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="3D plot of peak speed on zipline versus optimized system parameters."></p>
+</figure>
+</div>
+<p>As described in <a href="https://drive.google.com/file/d/1SiubkVozQMXaHgqTFxwavjSIbMaKRO7Z/view">the full PDF</a>, my approach was to compute information for all three weight classes to meet the velocity constraints, by interfacing with a master script that computed the optimal zipline parameters, then passed them into a third file to generate plots and verify the constraints. Through this assignment and many other challenges, including by taking advantage of quintessential MATLAB tools such as anonymous functions and fmincon, I became much more confident in my analytical intuition, MATLAB capabilities, and ability to stick through a difficult problem and debug confusing code.</p>
+<hr>
+</section>
+<section id="e80-technical-memorandum-team-report" class="level1">
+<h1>E80 Technical Memorandum &amp; Team Report</h1>
+<p>Prior to deploying our modified AUVs to collect data, as well as in the process of analyzing that data, E80 students complete a number of writeups to advance their technical writing and analytical skills.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/E80teamfinalpresentation.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Photo of Jacob and E80 Team giving final presentation."></p>
+</figure>
+</div>
+<p>One important conclusion was that our robot didn’t need to be redesigned for better hydrodynamics to still move efficiently underwater</p>
+<iframe width="100%" height="600" src="images/FainJacob Lab 6 Tech Memo.pdf" alt="[E80 Tech Memo](https://drive.google.com/file/d/1sQnH5vlpclNPjMIXjWGF5w882MS8xUdY/view)">
+<p>/&gt;</p>
+<p>These findings are elaborated on in my team’s <a href="9https://drive.google.com/file/d/15csoVUgetDNcze0qIiI11_JCYX8QlxJQ/view">final report</a>.</p>
 <div id="quarto-navigation-envelope" class="hidden">
 <p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SG9tZQ==">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6QWJvdXQ=">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fib3V0Lmh0bWw=">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SW5kdXN0cnkgRXhwZXJpZW5jZQ==">Industry Experience</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZHVzdHJ5X2V4cGVyaWVuY2Uv">/industry_experience/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RW5naW5lZXJpbmcgQ2xhc3MgUHJvamVjdHM=">Engineering Class Projects</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2VuZ2luZWVyaW5nX2NsYXNzX3Byb2plY3RzLw==">/engineering_class_projects/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RW5naW5lZXJpbmcgQ2x1YiBQcm9qZWN0cw==">Engineering Club Projects</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2VuZ2luZWVyaW5nX2NsdWJfcHJvamVjdHMv">/engineering_club_projects/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RmVsbG93c2hpcCBhbmQgRnVu">Fellowship and Fun</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2ZlbGxvd3NoaXBfYW5kX2Z1bi8=">/fellowship_and_fun/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6QXJ0IFByb2plY3Rz">Art Projects</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2FydF9wcm9qZWN0cy8=">/art_projects/</span></p>
 </div>
 <div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">Analysis &amp; Optimization – Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">Analysis &amp; Optimization – Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">Analysis &amp; Optimization – Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Jacob Fain HMC’26</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id = "quarto-html-after-body" type="application/javascript">
@@ -576,4 +622,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </body>
 
 </html>
-</iframe></p></main></div></body></html>
+</iframe></section></main></div></body></html>

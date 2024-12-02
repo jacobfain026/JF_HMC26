@@ -127,8 +127,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#e84-guitar-amplifier-circuit-modifications-in-progress" id="toc-e84-guitar-amplifier-circuit-modifications-in-progress" class="nav-link active" data-scroll-target="#e84-guitar-amplifier-circuit-modifications-in-progress">E84 Guitar Amplifier Circuit (modifications in progress)</a></li>
+  <li><a href="#e80-circuit-design" id="toc-e80-circuit-design" class="nav-link" data-scroll-target="#e80-circuit-design">E80 Circuit Design</a></li>
+  <li><a href="#e79-systems-practicum" id="toc-e79-systems-practicum" class="nav-link" data-scroll-target="#e79-systems-practicum">E79 Systems Practicum</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -136,19 +144,48 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In this sophomore engineering capstone course, Mudd students design and test modifications to their E79 robots. In doing so, we transform them into AUVs capable of deployment and data collection at Dana Point in Long Beach, CA. Also included here are technical writing samples, plus examples of my contributions to the team, from circuit design to a regression plotting template you can use! My team compared the measurement accuracy of a thermistor and a thermocouple, at depths determined via pressure sensor.</p>
-<p>https://docs.google.com/spreadsheets/d/1reVX4pK4KHjlbY36A042iyFy9b8GDI_mwH2W5gjf5Ec/edit#gid=0</p>
-<p>At the left is my team testing our AUV at pHake Lake, just north of campus. From here, we identified and debugged issues, such as leakage into our electronics box via capillary action in the thermocouple’s insulation tubes.</p>
+<section id="e84-guitar-amplifier-circuit-modifications-in-progress" class="level1">
+<h1>E84 Guitar Amplifier Circuit (modifications in progress)</h1>
+<p>In E84 “Electronic and Magnetic Circuits and Devices,” students apply class concepts through hands-on circuit analysis labs, culminating in a custom circuit design project. My team created this guitar amplifier circuit, complete with basic volume and distortion control. Currently, I’m independently modifying our design to add more control features.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/e84guitarampmodifications.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Photo of modified guitar amplifier circuit, soldered onto a protoboard."></p>
+</figure>
+</div>
 <p>As the capstone project for our electrical engineering class, Lucas and I, and our other friend Felipe put our new circuit design and analysis skills to the test, by designing a guitar amplifier circuit. In future iterations, we’d add to the existing variable distortion and volume control, like a bass filter. I’ll explore these changes through a personal project. Check out Felipe’s LinkedIn! https://www.linkedin.com/in/felipe-andrade-fernandes-236877259/</p>
 <iframe width="418" height="220" src="https://www.youtube.com/embed/7NGGlgUbvcc" title="May 2, 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 <p>While it’s still a work in progress, I’m working toward transferring the guitar amplifier circuit that my teammates and I built in E84 to something more permanent. I’m debugging the different components and adding more variability, including to the filters themselves, via potentiometers. For example, one major addition will be variable low-pass filter to control bass.</p>
+<hr>
+</section>
+<section id="e80-circuit-design" class="level1">
+<h1>E80 Circuit Design</h1>
+<p>As a sophomore, E80 “Experimental Engineering” was advertised as being the class that would transform students into real engineers. Honestly, it did! As I worked with peers to modify an autonomous underwater vehicle (AUV) to collect environmental data, I was exposed to many facets of and design challenges in engineering, especially by creating circuits to interface with our AUV’s sensors.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/E80pressuresensorcircuit.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Image of pressure sensor circuit LTspice schematic."></p>
+</figure>
+</div>
+<p>In this sophomore engineering capstone course, Mudd students design and test modifications to their E79 robots. In doing so, we transform them into AUVs capable of deployment and data collection at Dana Point in Long Beach, CA. Also included here are technical writing samples, plus examples of my contributions to the team, from circuit design to a regression plotting template you can use! My team compared the measurement accuracy of a thermistor and a thermocouple, at depths determined via pressure sensor.</p>
+<p>https://docs.google.com/spreadsheets/d/1reVX4pK4KHjlbY36A042iyFy9b8GDI_mwH2W5gjf5Ec/edit#gid=0</p>
+<p>At the left is my team testing our AUV at pHake Lake, just north of campus. From here, we identified and debugged issues, such as leakage into our electronics box via capillary action in the thermocouple’s insulation tubes.</p>
+<hr>
+</section>
+<section id="e79-systems-practicum" class="level1">
+<h1>E79 Systems Practicum</h1>
+<p>E80 and many other engineering classes build on the core class, E79 “Introduction to Engineering Systems,” where students explore systems engineering through both class assignments as well as a series of labs in which they build, deploy, and implement basic feedback controls for a simple AUV.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/E79underwater.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Photo of E79 AUV traversing an underwater environment."></p>
+</figure>
+</div>
 <p>In Harvey Mudd’s core engineering course, students apply the systems and analytics skills they learn in class to a capstone robotics project, assembling a small proportional-controlled underwater robot and its PCB to collect data. In the video, at the Bernard Field Station’s pHake Lake, a pond near campus, my lab partner Lucas and I are sending temperature, pressure, and motion information to a LabVIEW setup offscreen. Getting strange readings, we typical engineering students often find “Oh, it’s just like that.”</p>
 <iframe width="418" height="318" src="https://www.youtube.com/embed/BAc3czR71iU" title="E79 Phake Lake Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 <p>https://muse.io/lalemos1</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
