@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.33">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f29aaeecf1a46d890de4f9c541966cf8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="sketches-and-schematics" class="level1">
 <h1>Sketches and Schematics</h1>
-<p>Growing up, I watched a lot of sci-fi and fantasy movies with my dad. Along with building LEGO sets as a little kid, these were formative experiences for my creativity, both on the technical side in engineering, as well as the, albeit less-present artistic side, particularly in drawing. In fact, the two sides overlap quite a lot!</p>
+<p>Growing up, I watched a lot of sci-fi and fantasy movies with my dad. Along with building LEGO sets as a little kid, these were formative experiences for my creativity, both on the technical side as well as the, albeit less-present, artistic side, particularly in drawing. I’ve come to appreciate how much engineering and other fields make use of both sides.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Halo - Chief and Arbiter (4-14-23).webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Sketch of the Master Chief and the Arbiter from the Halo video game series."></p>
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="sketchbook-highlights" class="level3">
 <h3 class="anchored" data-anchor-id="sketchbook-highlights"><a href="https://jacobfain026.github.io/JF_HMC26/art_projects/sketchbook">Sketchbook Highlights</a></h3>
-<p>Here are some of my favorite sketches, compiled in a sketchbook I started in freshman year!</p>
+<p>Here are some of my favorites, compiled in a sketchbook I started in freshman year!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/Tron - Gen 2 Light Cycle (3-18-23).webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Sketch of Gen 2 Light Cycle from the Tron movie series."></p>
@@ -298,8 +298,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -410,7 +408,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

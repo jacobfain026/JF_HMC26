@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.33">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f29aaeecf1a46d890de4f9c541966cf8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -163,10 +163,10 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="e84-guitar-amplifier-circuit-wip-modifications" class="level1">
 <h1>E84 Guitar Amplifier Circuit (WIP Modifications)</h1>
-<p>As the capstone project for Mudd’s core electrical engineering class, students can choose among several potential circuit projects following a series of circuit analysis labs through which they apply concepts from the lectures. My peers <a href="https://muse.io/lalemos1">Lucas</a> and <a href="https://www.linkedin.com/in/felipe-andrade-fernandes-236877259/">Felipe</a> and I chose to create our own guitar amplifier circuit, capable of interfacing with and facilitating variable distortion and volume control for Lucas’ electric guitar.</p>
+<p>As the capstone project for Mudd’s core electrical engineering class, students can pursue a variety of circuit projects following a series of circuit analysis labs through which they apply concepts from the lectures. My peers <a href="https://www.linkedin.com/in/felipe-andrade-fernandes-236877259/">Felipe</a> and <a href="https://muse.io/lalemos1">Lucas</a> and I chose to create our own guitar amplifier circuit, capable of interfacing with and facilitating variable distortion and volume control for Lucas’ electric guitar.</p>
 <iframe width="615" height="346" src="https://www.youtube.com/embed/7NGGlgUbvcc" title="May 2, 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p>I co-designed the circuit, primarily by selecting values for the resistors and capacitors after doing calculations for our desired gain ranges and cutoff frequency based on what I learned in lecture. The circuit as shown below, and our whole research, design, and testing process is explained in much greater depth in our team’s <a href="https://docs.google.com/document/d/1MIcYxxlT8iNQ39LzYWtk8Kf2rsUjIukSYnP-nhh9F7M/edit?tab=t.0#heading=h.2k0sbtfk7ig1">project report</a>.</p>
+<p>I co-designed the circuit, primarily by selecting values for the resistors and capacitors after doing calculations for our desired gain ranges and cutoff frequency based on what I learned in lecture. The circuit as shown below (KiCad schematic courtesy of Lucas), and our whole research, design, and testing process is explained in much greater depth in our team’s <a href="https://drive.google.com/file/d/1rfUqLv6PH9uIe_jkyJlUleM7xA9HQSWo/view">project report</a>.</p>
 <div>
 
 </div>
@@ -209,10 +209,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="e79-systems-practicum" class="level1">
 <h1>E79 Systems Practicum</h1>
-<p>In E79, Harvey Mudd’s core engineering course, students apply the systems and analytics skills they learn in class to a semester-long robotics project, assembling a small proportional-controlled AUV and setting up its printed circuit board (PCB) to collect data. In the video, my lab partner Lucas and I are sending temperature, pressure, and motion information from a deployment at pHake Lake to a LabVIEW setup offscreen.</p>
+<p>In E79, Harvey Mudd’s core engineering course, students apply the systems and analytics skills they learn in class to a semester-long robotics project, assembling a small proportional-controlled AUV and setting up its printed circuit board (PCB) to collect data. In the video, my lab partner Lucas and I are sending temperature, pressure, and motion information from a deployment at pHake Lake, an artificial lake just north of Harvey Mudd’s campus, to a LabVIEW setup offscreen.</p>
 <iframe width="615" height="346" src="https://www.youtube.com/embed/BAc3czR71iU" title="E79 pHake Lake Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p>Through this course, I learned about basic circuit design and filter topographies, got a refresher in Excel, and was exposed to LabVIEW, setting the foundation for other classes. While taking E79, I also became interested in electrical engineering despite having always planned to pursue mechanical engineering. All-in-all, it was also just a fun learning experience! It was very rewarding to test our robot and successfully deploy it at pHake Lake after a gradual process of assembling its components.</p>
+<p>Through this course, I learned about basic circuit design and filter topographies, got a refresher in Excel, and was exposed to LabVIEW, setting the foundation for other classes. While taking E79, I also became interested in electrical engineering despite having always planned to pursue mechanical engineering. All-in-all, it was also just a fun learning experience! It was very rewarding to test our robot and successfully deploy it at pHake Lake after a gradual process of assembling its components and testing its subsystems.</p>
 <div>
 
 </div>
@@ -321,8 +321,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -433,7 +431,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
