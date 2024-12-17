@@ -165,12 +165,17 @@ ul.task-list li input[type="checkbox"] {
 <p>E72 is easily one of the three most difficult classes I’ve ever taken. With both speed and rigor, it moves students along through a variety of important mathematical and systems engineering skills, from Fourier Transforms to differential equations to optimization algorithms, while simultaneously teaching them (or rather, teaching them to teach themselves) MATLAB. Many long nights of difficult problem sets culminated in the notorious final homework assignment, in which students calculate zipline’s optimal vertical drop and wire rope tension to meet exit velocity constraints while maximizing the speeds that one of three weight classes of riders will experience.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/E72riderspeeds.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="Plots of rider speeds and peak speeds versus horizontal position on zipline."></p>
+<p><img src="images/E72riderspeeds.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Plots of rider speeds and peak speeds versus horizontal position on zipline."></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/E72solutionspace.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%" alt="3D plot of peak speed on zipline versus optimized system parameters."></p>
+<p><img src="images/E72solutionspace.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="3D plot of peak speed on zipline versus optimized system parameters."></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/E72 code snippet.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Snippet of MATLAB print statement code showing how variables transfer between functions."></p>
 </figure>
 </div>
 <p>As described in <a href="https://drive.google.com/file/d/1SiubkVozQMXaHgqTFxwavjSIbMaKRO7Z/view">the full PDF</a>, my approach was to compute information for all three weight classes to meet the velocity constraints, by interfacing with a master script that computed the optimal zipline parameters, then passed them into a third file to generate plots and verify the constraints. Through this assignment and many other challenges, including by taking advantage of quintessential MATLAB tools such as anonymous functions and fmincon, I became much more confident in my analytical intuition, MATLAB capabilities, and ability to stick through a difficult problem and debug confusing code.</p>
