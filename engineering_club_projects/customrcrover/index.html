@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Jacob Fain HMC'26</title>
+<title>Custom Remote-Control Rover &amp; Parachute – Jacob Fain HMC’26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,18 +131,105 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Custom Remote-Control Rover &amp; Parachute</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>During the descent phase of the launch, FAR teams can deploy an autonomous or remote-control rover to perform reconnaissance tasks (i.e.&nbsp;capturing footage as it returns independently from the rocket to the launch site). Our team began by deconstructing a <a href="https://60years.associatedelectrics.com/rc28-ready-to-run/">Team Associated MT28 RC car</a>. My teammates integrated the PCBs for our camera, and built a transistor arrangement that deactivates an electromagnet as soon as the rover starts driving, to detach its parachute mount (the green plate I printed and steel disk I cut via lathe shown at left) upon touching down. After several iterations, I designed and printed the mounting plate to interface with all of these components, including the red screw mounts which clamp down the electromagnet and the mounting plate itself, simultaneously. This would allow the rover to shed the mass and drag of the parachute as we drove it back to the launch site.</p>
-<p><img src="images/reovermountingplate.webp" class="img-fluid" alt="Close-up photo of 3D-printed rover mounting plate with components attached."></p>
-<p>At one point, we attempted to modify an existing all-terrain rover, which uses helical wheels. After experimenting with someone’s prototype of that rover, and determining that even with TPU filament, the helical wheels just couldn’t grasp surfaces from concrete to dirt to sand, we found that downscaling the rover to fit in the rocket was no longer worth pursuing.</p>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<p>During the descent phase of the launch, FAR teams can deploy an autonomous or remote-control rover to perform reconnaissance tasks (i.e.&nbsp;capturing footage as it returns to the launch site, independently from the rocket). Our team began by deconstructing a <a href="https://60years.associatedelectrics.com/rc28-ready-to-run/">Team Associated MT28 RC car</a>. Previous team lead <a href="https://www.linkedin.com/in/aztsai">Allison</a> integrated the PCBs for our camera, and built a transistor arrangement that deactivates an electromagnet as soon as the rover starts driving, to detach its parachute mount, a steel disk I cut via lathe and embedded into a 3D-printed plate, upon touching down. This would allow the rover to shed the mass and drag of the parachute as we drove it back to the launch site.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/rovermountingplate.webp" class="img-fluid" alt="Close-up photo of 3D-printed rover mounting plate with components attached."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/roverandmagnetplate.webp" class="img-fluid" alt="Photo of rover mounting plate and parachute mount."></p>
+</div>
+</div>
+</div>
+<p>Over several iterations, I designed and printed the mounting plate that interfaces with all of these components, including screw mounts that clamp down the electromagnet and the mounting plate itself, simultaneously. One constraint I kept in mind as I created the mount’s CAD was ensuring that the electromagnet was positioned roughly near the center of mass of the final assembly, to ensure that the rover body would be roughly flat upon touchdown, taking full advantage of its suspension to minimize the risk of damage.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/roverassemblyCAD.webp" class="img-fluid" alt="SolidWorks CAD of rover mount, screw mount, and parachute mount assembly."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/roverbalanced.webp" class="img-fluid" alt="Photo of full rover assembly balancing at its center of mass."></p>
+</div>
+</div>
+</div>
+<p>At one point, we attempted to modify an existing all-terrain rover, which uses helical wheels. After experimenting with someone’s prototype of that rover, and determining that even with TPU filament, the helical wheels just couldn’t get traction on concrete or dirt or sand or rocks, we found that further modifying the rover and downscaling it to fit in the rocket was no longer worth pursuing.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/rovermodifications.webp" class="img-fluid" alt="Annotated sketch of modifications to helical-wheeled rover design."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/roveringladiusII.webp" class="img-fluid" alt="Whiteboard sketch of modified helical-wheeled rover positioned inside Gladius II."></p>
+</div>
+</div>
+</div>
+<p>A major subchallenge for designing the rover was figuring out how to create the parachute it would connect to. With my teammates <a href="https://www.linkedin.com/in/tranthonyschmanthony">Anthony</a> and <a href="https://www.linkedin.com/in/sebastian-heredia4">Sebastian</a>, after <a href="https://apogeerockets.com/education/downloads/Newsletter149.pdf">calculating the area needed</a> for a maximum landing speed of 2.5 m/s, I built and tested two versions of a custom parachute that would attach to the parachute mount via plastic strings.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <iframe width="381" height="676" src="https://www.youtube.com/embed/ukgqSZM-Dgo" title="Full-scale Rover Parachute Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 </iframe>
-<iframe width="381" height="676" src="https://www.youtube.com/embed/ukgqSZM-Dgo" title="Full-scale Rover Parachute Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<iframe width="381" height="676" src="https://www.youtube.com/embed/D3Dd-3Ekc_o" title="Parachute Prototype Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 </iframe>
+</div>
+</div>
+</div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/roverassemblyCAD.webp" class="img-fluid" alt="SolidWorks CAD of rover mount, screw mount, and parachute mount assembly."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/roverbalanced.webp" class="img-fluid" alt="Photo of full rover assembly balancing at its center of mass."></p>
+</div>
+</div>
+</div>
 
 
 
