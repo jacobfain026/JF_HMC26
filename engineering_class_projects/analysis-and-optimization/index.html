@@ -132,7 +132,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#e72-zipline-optimization-problem" id="toc-e72-zipline-optimization-problem" class="nav-link active" data-scroll-target="#e72-zipline-optimization-problem">E72 Zipline Optimization Problem</a></li>
+  <li><a href="#e175-tripteron-robot-kinematics" id="toc-e175-tripteron-robot-kinematics" class="nav-link active" data-scroll-target="#e175-tripteron-robot-kinematics">E175 Tripteron Robot Kinematics</a></li>
+  <li><a href="#e72-zipline-optimization-problem" id="toc-e72-zipline-optimization-problem" class="nav-link" data-scroll-target="#e72-zipline-optimization-problem">E72 Zipline Optimization Problem</a></li>
   <li><a href="#e80-technical-memorandum-team-report" id="toc-e80-technical-memorandum-team-report" class="nav-link" data-scroll-target="#e80-technical-memorandum-team-report">E80 Technical Memorandum &amp; Team Report</a></li>
   </ul>
 </nav>
@@ -160,9 +161,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <hr>
+<section id="e175-tripteron-robot-kinematics" class="level1">
+<h1>E175 Tripteron Robot Kinematics</h1>
+<p>E175 was the last technical class I took for credit, and it was a fitting capstone to my engineering coursework. It drew from and expanded upon concepts and problem-solving skills I picked up in multivariable calculus, linear algebra, mechanics, and other foundational classes in Harvey Mudd’s core curricuum and general engineering degree. Through challenging problem sets, I adopted greater intuition, and where intuition fails, generalized equations, to describe the dynamics of rigid bodies. This culminated in a final design project, where Michael and I were inspired by <a href="https://www.youtube.com/watch?v=6EtXycVGJg4">this parallel-axis tripteron</a> and decided to make our own version. Despite comprising a complex-looking system of linkages, tripterons maintain a fixed orientation regardless of how they are moved around. Following our brainstorming, I CADed the model shown below, and with guidance from Prof.&nbsp;Bassman, we wielded the powerful MotionGenesis Kane solver to solve loop equations to identify the position of a point on the tripteron’s platform, as well as demonstrate that its orientation is indeed fixed. In short, it worked! Much further work could be done to continue characterizing the system, but we were proud of our results. Our approach and findings are elaborated upon in <a href="https://drive.google.com/file/d/1p0H7uDdhq4eHVpvXRqpjEU8x3J213a8i/view">our report</a></p>
+<iframe width="317" height="563" src="https://youtube.com/shorts/BJHgZBPdquo" title="E175 Tripteron Motion Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/tripteronside.jpg" class="img-fluid" alt="Side view of custom tripteron robot."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/tripterontop.jpg" class="img-fluid" alt="Top view of custom tripteron robot."></p>
+</div>
+</div>
+</div>
+<hr>
+</section>
 <section id="e72-zipline-optimization-problem" class="level1">
 <h1>E72 Zipline Optimization Problem</h1>
-<p>E72 is easily one of the most difficult classes I’ve ever taken. With both speed and rigor, it moves students along through a variety of important mathematical and systems engineering skills, from Fourier Transforms to differential equations to optimization algorithms, while simultaneously teaching them (or rather, teaching them to teach themselves) MATLAB. Many long nights of difficult problem sets culminated in the notorious final homework assignment, in which students calculate a zipline’s optimal vertical drop and wire rope tension to meet exit velocity constraints while maximizing the speeds that one of three weight classes of riders will experience.</p>
+<p>E72 was one of the most difficult classes I’ve ever taken. With both speed and rigor, it moved students along through a variety of important mathematical and systems engineering skills, from Fourier Transforms to differential equations to optimization algorithms, while simultaneously teaching them (or rather, teaching them to teach themselves) MATLAB. Many long nights of difficult problem sets culminated in the notorious final homework assignment, in which students calculate a zipline’s optimal vertical drop and wire rope tension to meet exit velocity constraints while maximizing the speeds that one of three weight classes of riders will experience.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/E72riderspeeds.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Plots of rider speeds and peak speeds versus horizontal position on zipline."></p>
