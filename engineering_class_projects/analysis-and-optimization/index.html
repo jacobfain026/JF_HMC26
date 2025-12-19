@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-5e0e4619244877d3681ad86eb47fbb02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -163,9 +165,10 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="e175-tripteron-robot-kinematics" class="level1">
 <h1>E175 Tripteron Robot Kinematics</h1>
-<p>E175 was the last technical class I took for credit, and it was a fitting capstone to my engineering coursework. It drew from and expanded upon concepts and problem-solving skills I picked up in multivariable calculus, linear algebra, mechanics, and other foundational classes in Harvey Mudd’s core curricuum and general engineering degree. Through challenging problem sets, I adopted greater intuition, and where intuition fails, generalized equations, to describe the dynamics of rigid bodies. This culminated in a final design project, where Michael and I were inspired by <a href="https://www.youtube.com/watch?v=6EtXycVGJg4">this parallel-axis tripteron</a> and decided to make our own version. Despite comprising a complex-looking system of linkages, tripterons maintain a fixed orientation regardless of how they are moved around. Following our brainstorming, I CADed the model shown below, and with guidance from Prof.&nbsp;Bassman, we wielded the powerful MotionGenesis Kane solver to solve loop equations to identify the position of a point on the tripteron’s platform, as well as demonstrate that its orientation is indeed fixed. In short, it worked! Much further work could be done to continue characterizing the system, but we were proud of our results. Our approach and findings are elaborated upon in <a href="https://drive.google.com/file/d/1p0H7uDdhq4eHVpvXRqpjEU8x3J213a8i/view">our report</a></p>
+<p>E175 was the last technical class I took for credit, and it was a fitting capstone to my engineering coursework. It drew from and expanded upon concepts and problem-solving skills I picked up in multivariable calculus, linear algebra, mechanics, and other foundational classes in Harvey Mudd’s core curricuum and general engineering degree. Through challenging problem sets, I adopted greater intuition, and where intuition fails, generalized equations, to describe the dynamics of rigid bodies. This culminated in a final design project, where Michael and I were inspired by <a href="https://www.youtube.com/watch?v=6EtXycVGJg4">this parallel-axis tripteron</a> and decided to make our own. Despite comprising a complex-looking system of linkages, tripterons maintain a fixed orientation regardless of how they are moved around. Following our brainstorming, I CADed the model shown below, and with guidance from Prof.&nbsp;Bassman, we wielded the powerful MotionGenesis Kane solver to solve loop equations to predict the position of a point on the tripteron’s platform, as well as demonstrate that its orientation is indeed fixed. In short, it worked! Much further work could be done to continue characterizing the system, but we were proud of our results. Our approach and findings are elaborated upon in <a href="https://drive.google.com/file/d/1p0H7uDdhq4eHVpvXRqpjEU8x3J213a8i/view">our report</a>.</p>
 <iframe width="317" height="563" src="https://youtube.com/shorts/BJHgZBPdquo" title="E175 Tripteron Motion Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://youtube.com/shorts/BJHgZBPdquo"></video></div>
 <div>
 
 </div>
@@ -659,6 +662,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 </body>
 
