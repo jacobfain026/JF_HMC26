@@ -153,14 +153,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <hr>
-<p>This fall, MARC’s president <a href="https://www.linkedin.com/in/nikolas-s-hall">Nikolas</a> and Structures team lead <a href="https://www.linkedin.com/in/piercegruber">Pierce</a> joined me in reaching out to engineers at <a href="https://soeffects.com/">Second Order Effects</a>. They had contacted MARC during my freshman year about reviewing our designs to help us improve upon Gladius I, which was a huge help as we developed Gladius II. Nikolas, Pierce, and I created a semi-formal design report highlighting the steps that Structures has taken to respond to Gladius II’s <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/gladiusIIcompetitionlaunch/">failed launch</a>, from structural redesigns to the selection of a motor with a similar net impulse but lower, safer thrust.</p>
-<p>I’ve been spearheading our complete revamp of the centering rings, which connect the motor tube to the aft airframe body, and other structural components such as the bulkheads that provide internal barriers between Gladius III’s components, which I’ve taught new members how to optimize for maximum hole separation by utilizing <a href="https://www.solidworks.com/">SolidWorks</a>’ sketch relations. Some of our key changes are highlighted below, such as my teammate <a href="https://www.linkedin.com/in/max-gerber-239b01299">Max</a>’s idea for partially embedding the fins into the centering rings to add further redundancy for preventing them from ripping out. I brainstormed a way of creating screw holes on the centering rings so that they can be held in place at more locations than only using epoxy would allow, and developed a completely new approach to assembling the aft airframe. This time, we’ll slide the entire pre-assembled compound of centering rings, fins, and the motor tube into the rocket body, dramatically increasing internal contact for both load transfer and epoxy bonding surface area.</p>
+<p>Last fall, MARC’s president <a href="https://www.linkedin.com/in/nikolas-s-hall">Nikolas</a> and Structures team lead <a href="https://www.linkedin.com/in/piercegruber">Pierce</a> joined me in creating a semi-formal design report highlighting the steps that Structures has taken to respond to Gladius II’s <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/gladiusIIcompetitionlaunch/">failed launch</a>, from structural redesigns to the selection of a motor with a similar net impulse but lower, safer thrust. I spearheaded our complete revamp of the centering rings, which connect the motor tube to the aft airframe body, and other structural components such as the bulkheads that provide internal barriers between Gladius III’s components. I also taught new members how to optimize for maximum hole separation in these bulkheads by utilizing <a href="https://www.solidworks.com/">SolidWorks</a>’ sketch relations, in an effort to minimize room for failure due to bolt tearout. My teammate <a href="https://www.linkedin.com/in/max-gerber-239b01299">Max</a> suggested that we partially embed the fins into the centering rings to add further redundancy for preventing them from ripping out, although we decided against this change due to its manufacturing complexity, as well as initial FEA which indicated that this would actually exacerbate stress on the fins. I designed a soft-jaw fixutre that allowed us to much more efficiently mill orthogonal screw holes on the centering rings, and developed a completely new approach to assembling the aft airframe. This approach let us slide the entire pre-assembled compound of centering rings, fins, and the motor tube into the rocket body, dramatically increasing internal contact for both load transfer and epoxy bonding surface area. These various changes did their job, as we saw with Gladius III’s <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/gladiusIIIassembly&amp;launch/">successful launch and recovery</a>!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/aftairframeschematic.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Annotated diagram of aft airframe and supporting components such as a soft jaw fixture."></p>
 </figure>
 </div>
-<p>I’ve also conducted preliminary SolidWorks finite element analysis (FEA) tests to verify that these redesigned structural components can better withstand the expected 2 kN peak motor thrust, which is something we’ll be hearing back from Second Order Effects on shortly. This process has involved a lot of CAD work and configuration, including manually editing SolidWorks material properties at the code level.</p>
+<p>I also conducted preliminary SolidWorks finite element analysis (FEA) tests to verify that these redesigned structural components can better withstand the expected 2 kN peak motor thrust. This process has involved a lot of CAD work and configuration, including manually editing SolidWorks material properties at the code level.</p>
 <div>
 
 </div>
@@ -173,6 +172,47 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/GIIIaftairframeUY.png" class="img-fluid" alt="SolidWorks FEA plot of aft airframe deformation."></p>
 </div>
 </div>
+</div>
+<p>In the weeks leading up to the competition launch, our team had to cram some final design changes. In addition to supporting various <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/gladiusIIIassembly&amp;launch/">last-minute assembly work</a>, I CADed a new avionics bay from scratch, since we discovered that the old design did not actually interface with the bulkhead I’d designed. I created a simple, non-deal, but functional system that was constrained by nuts tightened onto carriage bolts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/avionicsbay.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="Exploded view of avionics bay."></p>
+</figure>
+</div>
+<p>Throughout the school year, and over the summer following the launch, I CADed up the entire rocket for future analysis and instruction. This has come in handy as I help lead MARC through <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/apollyonIdesign&amp;validation/">designing Apollyon I</a>.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/nosecone.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/mid.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/payload bay.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/fore.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/aft.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/N1000W.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/GIIIoverall.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="Exploded view of complete Gladius III CAD."></p>
+</figure>
 </div>
 
 
