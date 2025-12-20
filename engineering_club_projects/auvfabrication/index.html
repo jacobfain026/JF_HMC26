@@ -153,25 +153,62 @@ ul.task-list li input[type="checkbox"] {
 
 
 <hr>
-<p>In my freshman fall semester, I entered the <a href="https://jacobfain026.github.io/JF_HMC26/industry_experience/">machine shop</a> for the first time as I learned how to use the mill to drill and tap holes for the thrusters on MuddSub’s first AUV, Alfie. I also assisted with disassembly and reassembly of Alfie’s bellypan, the baseplate on which the thrusters, electronics hub, and mechanical subsystems are mounted. While these were ultimately small steps, I’m proud to have contributed to a fully-operable custom AUV! Here’s a quick video of MuddSub’s president <a href="https://www.linkedin.com/in/ket-hollingsworth">Ket</a> driving Alfie around in Mudd’s tank room.</p>
+<p>In my freshman fall semester, I entered the <a href="https://jacobfain026.github.io/JF_HMC26/industry_experience/">machine shop</a> for the first time as I learned how to use the mill to drill and tap holes for the thrusters on MuddSub’s first AUV, Alfie. I also assisted with disassembly and reassembly of Alfie’s bellypan, the baseplate on which the thrusters, electronics hub, and mechanical subsystems are mounted. Here’s a quick video of MuddSub’s president <a href="https://www.linkedin.com/in/ket-hollingsworth">Ket</a> driving Alfie around in Mudd’s tank room.</p>
 <iframe width="317" height="563" src="https://www.youtube.com/embed/GIO_jrQPheI" title="MuddSub SP24 Alfie Test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
-<p>While the video demonstrates that Alfie does its job, the RoboSub competition allows teams to deploy two AUVs simultaneously. Crush is MuddSub’s completely reimagined take on Alfie. Although the majority of the robot was previously designed, I’ve been able to contribute some input to finishing touches, especially now that we’ve moved into fabricating components. This includes Crush’s bellypan, whose geometry I was tasked with realigning with respect to other parts, such as 3D-printed carbon fiber thruster housings, an acrylic camera enclosure, and a lid that was previously milled at a CNC shop. The Mechanical team is preparing to find where to get this and many other components waterjetted and welded professionally, since watertightness is of the utmost importance.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/22-23 Crush Assembly.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="SolidWorks CAD of overall Crush assembly."></p>
-</figure>
-</div>
+<p>While the video demonstrates that Alfie does its job, the RoboSub competition allows teams to deploy two AUVs simultaneously. Crush is MuddSub’s completely reimagined approach. Although the overall geometry of the robot was previously designed, I’ve been leading significant design changes, especially now that we’re moving into fabricating components. This includes the implementation of custom materials in SolidWorks for FEA and mass property analysis, as well as substantial modifications to the bellypan and electronics enclosure panels, whose geometry I have been realigning with respect to other parts, such as 3D-printed carbon fiber-reinforced nylon housings. I’m looking into where to get these components waterjetted, milled, and welded professionally, since watertightness is of the utmost importance. Below is a comparison of Crush before I began working on it, with its current iteration as of December 2025 (COTS fasteners and penetrators not pictured).</p>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/Modifying Crush's Bellypan.webp" class="img-fluid" alt="SolidWorks CAD of Crush's bellypan."></p>
+<p><img src="images/22-23 Crush Assembly.webp" class="img-fluid" alt="SolidWorks CAD of overall Crush assembly as of 2023."></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images/Crushfabricatecomponents.webp" class="img-fluid" alt="Photo of various Crush components that were previously fabricated."></p>
+<p><img src="images/25-26crushassembly.png" class="img-fluid" alt="SolidWorks CAD of work-in-progress Crush AUV as of December 2025."></p>
+</div>
+</div>
+</div>
+<p>Teammates like <a href="https://www.linkedin.com/in/ethanbkim/">Ethan</a> and <a href="https://www.linkedin.com/in/david-liu-677113283/">David</a> have been helping determine the layout of Crush’s electronics enclosure, working around constraints like those posed by the positioning of penetrator bolts, which themselves must not interfere with external housings. We’re aiming for a more accessible layout and less cluttered cable management (see the comparison of our rough space allocation CAD to Alfie’s current layout below), and simultaneously ensuring that all components are positioned as high up inside the robot as possible to raise its center of mass above the plane of its vertical thrusters, such that these are underwater when Crush is deployed.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/currentlayout.png" class="img-fluid" alt="Photo of Alfie's current cable management layout."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/enclosurelayout.png" class="img-fluid" alt="Rough CAD for determining electronics enclosure space allocation."></p>
+</div>
+</div>
+</div>
+<p>I’ve also been working with peers like <a href="https://www.linkedin.com/in/tayhaan/">Tay</a> to run FEA on the bellypan and electronics enclosure. This has allowed us to drop the thicknesses of the enclosure panels and baseplate from their original states, significantly reducing the mass of Crush while still retaining a large factor of safety against potential compromises to the O-ring seal that keeps the enclosure watertight. We’re currently confirming that my proposed layout for mounting holes and weight-reducing cutouts on the bellypan doesn’t threaten its structural integrity. These changes should further reduce the mass of Crush, as well as highly-configurable orientations of actuators like the <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/markerdropperprototype">marker dropper</a> and <a href="https://jacobfain026.github.io/JF_HMC26/engineering_club_projects/torpedolauncherprototype">torpedo launcher</a>.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/configurableholes.png" class="img-fluid" alt="Annotated screenshot highlighting some of the many possible mounting positions and orientations of actuators on Crush's bellypan."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/enclosureFEA.png" class="img-fluid" alt="Various results from running FEA on the electronics enclosure and its components."></p>
+</div>
+</div>
+</div>
+<p>Another important change that we’re exploring is adjusting the positions and orientation of Crush’s horizontal thrusters, for an optimal balance of the efficiencies of forward motion, vs.&nbsp;lateral strafing, vs.&nbsp;rotation about its vertical axis. With help from <a href="https://www.linkedin.com/in/taishi-liu-75a803346/">Taishi</a>, I created a spreadsheet that computes the effects of enlarging the bellypan and rotating the thrusters from their current orientation on the forward and lateral thrust components, and thruster torque. It uses and varies parameters measured from the CAD model. Additionally, we verified that we don’t need to make Crush bigger for it to have approximately the same relative agility as Alfie, by finding both AUV’s moments of inertia and the lever arms of their thrusters to compare their estimated accelerations from rest. Barring the effects of drag, and the negligible contributions from fasteners and other small geometric features that were neglected for simplicity, Crush’s acceleration should be about 90% of Alfie’s if its current bellypan is maintained, which should be sufficient.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/thrusterparameters.png" class="img-fluid" alt="Napkin calculations for Crush's thruster forces and torque."></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/inertiacomparison.png" class="img-fluid" alt="Side-by-side comparison of approximate moments of inertia for Alfie and Crush, as calculated by SolidWorks."></p>
 </div>
 </div>
 </div>
